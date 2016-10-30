@@ -20,13 +20,20 @@ li:first-child{
 	font-family: sans-serif;
 
 }
-
+a{
+	text-decoration: none;
+	color:lime;
+}
 
 	
 li:visited{
 	color: hotpink;
 }
-//
 li:hover{
 	color:#800000;
-}//
+}
+li{
+	color:hsl(45, 50%, 65%) !important;
+	font-family: Cursive; 
+	font-size: 30px;
+}
