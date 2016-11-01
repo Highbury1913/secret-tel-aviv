@@ -5,6 +5,8 @@ body {
 }
 nav li {
 	display:inline-block;
+
+
 }
 nav {
 	background-color: #333333;
@@ -32,6 +34,7 @@ nav li a {
 	max-width: 500px;
 	display: block; 
 	margin: 0 auto;
+	padding: 200px;
 	
 
 
