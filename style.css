@@ -11,6 +11,11 @@ nav {
 	position: fixed;
 	width: 100%;
 	top: 0;
+
+}
+nav ul{
+	margin: 0;
+	text-align: center; 
 }
 nav li a {
 	line-height: 50px;
@@ -25,8 +30,10 @@ nav li a {
 .hero-image{
 	width: 100%;
 	max-width: 500px;
-	display: block;
+	display: block; 
 	margin: 0 auto;
+	
+
 
 	
 	
@@ -34,16 +41,18 @@ nav li a {
 .hero{
 	background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
 	background-size: cover;
-	height: 700px
-	z-index:1;
+	height: 700px;
+	
+
 	
 }
 h1 {
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'open sans';
   text-align: center;
   font-weight: bold;
   padding: 25px;
+
 }
 
 h3 {
@@ -57,3 +66,18 @@ h3 {
 section {
   background-color: #ddd;
 }
+.column {
+  float: left;
+  width: 33.3%;
+}
+.food img {
+  width: 100%;
+display: inline-block;
+
+
+}
+.column-inner {
+	padding: 20px;
+
+}
+
