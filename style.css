@@ -36,6 +36,7 @@ nav li a {
 	margin: 0 auto;
 	padding: 200px;
 	
+	
 
 
 	
@@ -64,13 +65,14 @@ h3 {
   font-family: 'Open Sans';
   margin-bottom: 5px;
   font-size: 18px;
+  height: 200px;
 }
 
 section {
   background-color: #ddd;
 }
 .column {
-  float: left;
+float: left;
   width: 33.3%;
 }
 .food img {
@@ -83,4 +85,43 @@ display: inline-block;
 	padding: 20px;
 
 }
+@media (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 500px;
 
+  
+
+
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  height: 500px;
+ 
+
+ }
+.row:before {
+  display: table;
+  content: "";
+}
+.container:after, .row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+div-img {
+	width: 100%;
+	padding: 20px;
+	height: 50%
+}
+@media (max-width: 700px) {
+  .column-70 {
+    width: 100%;
+  }
